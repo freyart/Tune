@@ -1,0 +1,17 @@
+const playlistData = [
+    { "id":"AP1-Theme", "category": "Anime Playlist", "name": "[Theme] - Main Theme", "url": "https://vgmsite.com/soundtracks/ni-no-kuni-wrath-of-the-white-witch-the-original-soundtrack/xspanbqb/101%20-%20Ni%20No%20Kuni%20Dominion%20of%20the%20Dark%20Djinn%20-%20Main%20Theme.mp3" }
+    ,{ "id":"AP1-Travel", "category": "Anime Playlist", "name": "[Travel] - The Flatlands", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/wpigovehxx/1-11%20The%20Flatlands.mp3" }
+    ,{ "id":"AP1-Villain", "category": "Anime Playlist", "name": "[Villain] - Malevolence creeps from behind", "url": "https://vgmsite.com/soundtracks/tales-of-berseria-original-soundtrack/luexacisfq/1-10%20-%20Malevolence%20creeps%20from%20behind.mp3" }
+    ,{ "id":"AP1-City", "category": "Anime Playlist", "name": "[City] - Theme of Laphicet", "url": "https://vgmsite.com/soundtracks/tales-of-berseria-original-soundtrack/hhkmcmajbx/2-21%20-%20Theme%20of%20Laphicet.mp3" }
+    ,{ "id":"AP1-Light", "category": "Anime Playlist", "name": "[Light] - Enveloped in Kindness", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/hmzhdpnrrr/3-04%20Enveloped%20in%20Kindness.mp3" }
+    ,{ "id":"AP1-Tense", "category": "Anime Playlist", "name": "[Tense] - Tension", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/cekuxobtfy/2-08%20Tension.mp3" }
+    ,{ "id":"AP1-Dungeon", "category": "Anime Playlist", "name": "[Dungeon] - The Nesting Epidemic...", "url": "https://vgmsite.com/soundtracks/tales-of-zestiria-english-original-soundtrack/ztnzjdjodg/1-31%20-%20The%20Nesting%20Epidemic%20At%20The%20Base%20Of%20The%20Great%20Tree.mp3" }
+    ,{ "id":"AP1-Rest", "category": "Anime Playlist", "name": "[Rest] - Tranquil Days", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/svlnjehgmg/2-04%20Tranquil%20Days.mp3" }
+    ,{ "id":"AP1-Weird", "category": "Anime Playlist", "name": "[Weird] - How Amusing", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/hijbtbfvbn/2-06%20How%20Amusing%21.mp3" }
+    ,{ "id":"AP1-Countdown", "category": "Anime Playlist", "name": "[Countdown] - On the Knife's Edge", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/vkdtyzdsho/2-15%20On%20a%20Knife%27s%20Edge.mp3" }
+    ,{ "id":"AP1-Sad", "category": "Anime Playlist", "name": "[Sad] - Sorrow", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/mpfbqxepxs/3-07%20Sorrow.mp3" }
+    ,{ "id":"AP1-Battle", "category": "Anime Playlist", "name": "[Normal Battle] - Battle", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/zfepmckwuo/2-11%20Battle%20I.mp3" }
+    ,{ "id":"AP1-BossBattle", "category": "Anime Playlist", "name": "[Boss Battle] - Decisive Battle", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/zbgyklngeq/2-24%20Decisive%20Battle%20I.mp3" }
+    ,{ "id":"AP1-FinalBattle", "category": "Anime Playlist", "name": "[Final Battle] - They Who Govern Reason", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/ijfniuqdvv/4-02%20They%20Who%20Govern%20Reason.mp3" }
+    ,{ "id":"AP1-Fanfare", "category": "Anime Playlist", "name": "[Fanfare] - Victory!", "url": "https://dl.vgmdownloads.com/soundtracks/saga-frontier-original-soundtrack/ofbohdkwoi/1-13%20Victory%21.mp3" }
+];

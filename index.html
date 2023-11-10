@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Campaign Playlist Player</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="files/player.css">
+  <script src="files/playlist-data.js"></script>
+</head>
+<body>
+  <div class="container">  
+    <div class="controls">
+      <label for="category">Playlist</label>
+
+      <select id="category">
+        <!-- Category options will be added here dynamically -->
+      </select>
+      
+      <select id="playlist" size="15">
+        <!-- Tune options will be added here dynamically -->
+      </select>
+      
+      <div class="button-container">
+        <button id="playButton" class="playback-button"><i class="fas fa-play"></i></button>
+        <button id="pauseButton" class="playback-button"><i class="fas fa-pause"></i></button>
+        <button id="stopButton" class="playback-button"><i class="fas fa-stop"></i></button>
+      </div>
+      
+      <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5">
+    </div>
+  </div>
+  <script src="files/player.js"></script>
+  <script>
+    // Read the tune id from the URL parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const tuneIdToPlay = urlParams.get('play');
+
+    // If the 'playTune' parameter is present, play the specified tune
+    if (tuneIdToPlay !== null) {
+      playTuneById(tuneIdToPlay);
+    }
+  </script>
+</body>
+</html>
