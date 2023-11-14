@@ -1,5 +1,5 @@
 const playlistData = [
-    { "id":"AP1-Theme", "category": "Anime Playlist", "name": "[Theme] - Main Theme", "url": "https://vgmsite.com/soundtracks/ni-no-kuni-wrath-of-the-white-witch-the-original-soundtrack/xspanbqb/101%20-%20Ni%20No%20Kuni%20Dominion%20of%20the%20Dark%20Djinn%20-%20Main%20Theme.mp3" }
+    { "id":"AP1-Theme", "category": "Anime Playlist", "name": "[Theme] - Journey (Destiny)", "url": "https://dl.vgmdownloads.com/soundtracks/the-essential-games-music-collection-vol.-3-2023/hcdufmyzfm/01.%20Journey%20%28From%20Destiny%202%29.mp3" }
     ,{ "id":"AP1-Travel", "category": "Anime Playlist", "name": "[Travel] - The Flatlands", "url": "https://vgmsite.com/soundtracks/octopath-traveler-original-soundtrack-2018/wpigovehxx/1-11%20The%20Flatlands.mp3" }
     ,{ "id":"AP1-Villain", "category": "Anime Playlist", "name": "[Villain] - Malevolence creeps from behind", "url": "https://vgmsite.com/soundtracks/tales-of-berseria-original-soundtrack/luexacisfq/1-10%20-%20Malevolence%20creeps%20from%20behind.mp3" }
     ,{ "id":"AP1-City", "category": "Anime Playlist", "name": "[City] - Theme of Laphicet", "url": "https://vgmsite.com/soundtracks/tales-of-berseria-original-soundtrack/hhkmcmajbx/2-21%20-%20Theme%20of%20Laphicet.mp3" }
